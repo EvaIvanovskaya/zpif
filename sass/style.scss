@@ -5,3 +5,11 @@
 /*Core*/
 @import "core/fonts";
 @import "core/normalize";
+
+/*Components*/
+@import "components/buttons";
+
+/*Layout*/
+@import "layout/wrapper";
+@import "layout/header";
+@import "layout/footer";

@@ -1,0 +1,15 @@
+.button {
+    padding: 12px 30px;
+    font-size: 1.4rem;
+    line-height: 1.5rem;
+    font-weight: 600;
+    color: $light-color;
+    border: none;
+    border-radius: 100px;
+    background-color: $primary-color;
+    cursor: pointer;
+
+    &:hover {
+        box-shadow: $button-shadow;
+    }
+}
