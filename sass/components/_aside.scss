@@ -1,0 +1,29 @@
+aside {
+    outline: 1px solid greenyellow;
+    display: block;
+    position: absolute;
+    box-sizing: border-box;
+    z-index: 3;
+}
+
+.about-company {
+    width: 600px;
+    height: 375px;
+    padding: 70px 70px 60px 77px;
+    border-radius: 10px;
+    background-color: $light-color;
+    left: $inner-content-width;
+    top: -75px;
+}
+
+.about-company__title {
+    font-size: 2.4rem;
+    font-weight: 900;
+    width: 455px;
+    margin-bottom: 30px;
+}
+
+.about-company__text {
+    width: 420px;
+    margin-bottom: 1.5rem;
+}

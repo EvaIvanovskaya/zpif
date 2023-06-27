@@ -299,6 +299,36 @@ dd {
   margin-bottom: 30px;
 }
 
+aside {
+  outline: 1px solid greenyellow;
+  display: block;
+  position: absolute;
+  box-sizing: border-box;
+  z-index: 3;
+}
+
+.about-company {
+  width: 600px;
+  height: 375px;
+  padding: 70px 70px 60px 77px;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  left: 1040px;
+  top: -75px;
+}
+
+.about-company__title {
+  font-size: 2.4rem;
+  font-weight: 900;
+  width: 455px;
+  margin-bottom: 30px;
+}
+
+.about-company__text {
+  width: 420px;
+  margin-bottom: 1.5rem;
+}
+
 /*Layout*/
 .wrapper {
   max-width: 1160px;
@@ -317,7 +347,7 @@ dd {
   left: 0;
   width: 100%;
   box-shadow: 0px 4px 31px 0px rgba(104, 158, 175, 0.1);
-  z-index: 2;
+  z-index: 5;
   background-color: rgb(255, 255, 255);
 }
 
@@ -387,6 +417,7 @@ dd {
 }
 
 .about {
+  position: relative;
   padding-top: 78px;
   padding-bottom: 87px;
   background-image: linear-gradient(180deg, rgb(90, 155, 174) 0%, rgba(185, 212, 220, 0.43) 80.26%, rgba(255, 255, 255, 0) 100%);
@@ -428,4 +459,11 @@ dd {
   color: rgb(255, 255, 255);
   width: 135px;
   left: 60px;
+}
+
+.strategy {
+  overflow: visible;
+  position: relative;
+  padding-top: 200px;
+  padding-bottom: 100px;
 }/*# sourceMappingURL=style.css.map */
