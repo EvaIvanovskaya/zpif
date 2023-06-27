@@ -1,9 +1,9 @@
 .wrapper {
-    max-width: 1160px;
+    max-width: $content-width;
     margin: auto;
 }
 
 .inner-wrapper {
-    max-width: 1040px;
+    max-width: $inner-content-width;
     margin: auto;
 }

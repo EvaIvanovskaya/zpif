@@ -39,6 +39,7 @@ h4 {
 /*Legend colors*/
 /*Gradients*/
 /*Shadows*/
+/*Breakpoints*/
 /*Core*/
 @font-face {
   font-family: GraphikLCG-Regular;
@@ -215,4 +216,40 @@ dd {
 .inner-wrapper {
   max-width: 1040px;
   margin: auto;
+}
+
+.main-header {
+  padding: 25px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-shadow: 0px 4px 31px 0px rgba(104, 158, 175, 0.1);
+  z-index: 2;
+  background-color: rgb(255, 255, 255);
+}
+
+.main-header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navigation__link {
+  font-size: 1.6rem;
+  font-weight: 400;
+  cursor: pointer;
+}
+.navigation__link:hover {
+  font-weight: 600;
 }/*# sourceMappingURL=style.css.map */
