@@ -1,4 +1,24 @@
 /*Abstracts*/
+.button,
+body,
+input,
+textarea {
+  font-family: "GraphikLCG-Regular", Arial, sans-serif;
+}
+
+body,
+input,
+textarea {
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.24;
+}
+
+h1 {
+  display: none;
+}
+
 /*Core*/
 @font-face {
   font-family: GraphikLCG-Regular;
@@ -131,4 +151,21 @@ a:active, a:hover {
 img {
   max-width: 100%;
   display: block;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
 }/*# sourceMappingURL=style.css.map */
