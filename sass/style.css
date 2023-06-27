@@ -9,6 +9,7 @@ textarea {
 body,
 input,
 textarea {
+  margin: 0;
   font-size: 1.8rem;
   font-style: normal;
   font-weight: 400;
@@ -54,6 +55,11 @@ h4 {
 @font-face {
   font-family: GraphikLCG-Semibold;
   src: url(/src/fonts/GraphikLCG-Semibold.woff);
+  font-display: fallback;
+}
+@font-face {
+  font-family: GraphikLCG-Bold;
+  src: url(/src/fonts/GraphikLCG-Bold.woff);
   font-display: fallback;
 }
 html,
@@ -179,6 +185,7 @@ h1,
 h2,
 h3,
 h4,
+h5,
 p,
 ul[class],
 ol[class],
@@ -205,6 +212,18 @@ dd {
 }
 .button:hover {
   box-shadow: 0px 4px 17px 0px rgba(0, 0, 0, 0.15);
+}
+
+.video-play__icon {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.video-play__icon {
+  background-image: url(/src/img/icons/video-play-icon.svg);
+  width: 80px;
+  height: 80px;
+  margin-right: 22px;
 }
 
 /*Layout*/
@@ -252,4 +271,77 @@ dd {
 }
 .navigation__link:hover {
   font-weight: 600;
+}
+
+.layout-2-columns, .layout-3-columns, .layout-4-columns {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.layout-4-columns > * {
+  flex-basis: 21%;
+}
+
+.layout-3-columns > * {
+  flex-basis: 30%;
+}
+
+.layout-2-columns > * {
+  flex-basis: 48%;
+}
+
+/*Sections*/
+.main-slogan {
+  padding-top: 200px;
+  padding-bottom: 92px;
+}
+
+.main-slogan__caption {
+  font-size: 3.6rem;
+  line-height: 1.09;
+  margin-bottom: 20px;
+}
+
+.main-slogan__title {
+  font-size: 5rem;
+  line-height: 1.09;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+.main-slogan__title span {
+  color: rgb(35, 146, 181);
+}
+
+.about {
+  padding-top: 78px;
+  padding-bottom: 87px;
+  background-image: linear-gradient(180deg, rgb(90, 155, 174) 0%, rgba(185, 212, 220, 0.43) 80.26%, rgba(255, 255, 255, 0) 100%), url(/src/img/backgrounds/main-cover.png);
+  background-repeat: no-repeat;
+  border-color: rgb(35, 146, 181);
+}
+
+.intro {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  padding-bottom: 50px;
+}
+
+.intro__text {
+  width: 670px;
+  color: rgb(255, 255, 255);
+}
+
+.video-popup {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.video__descriptor {
+  font-size: 1.4rem;
+  line-height: 1.14;
+  color: rgb(255, 255, 255);
+  width: 138px;
 }/*# sourceMappingURL=style.css.map */

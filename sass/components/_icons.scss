@@ -1,0 +1,12 @@
+%ico {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.video-play__icon {
+    @extend %ico;
+    background-image: url(/src/img/icons/video-play-icon.svg);
+    width: 80px;
+    height: 80px;
+    margin-right: 22px;
+}

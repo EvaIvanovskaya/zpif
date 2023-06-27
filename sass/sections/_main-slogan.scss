@@ -1,0 +1,21 @@
+.main-slogan {
+    padding-top: 200px;
+    padding-bottom: 92px;
+}
+
+.main-slogan__caption {
+    font-size: 3.6rem;
+    line-height: 1.09;
+    margin-bottom: 20px;
+}
+
+.main-slogan__title {
+    font-size: 5.0rem;
+    line-height: 1.09;
+    text-transform: uppercase;
+    font-weight: 900;
+
+    span {
+        color: $primary-color;
+    }
+}
