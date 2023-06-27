@@ -1,29 +1,48 @@
 aside {
-    outline: 1px solid greenyellow;
+    /* outline: 1px solid greenyellow; */
     display: block;
     position: absolute;
     box-sizing: border-box;
+    border-radius: 10px;
+    background-color: $light-color;
     z-index: 3;
+}
+
+.aside__title {
+    font-size: 2.4rem;
+    line-height: 1.1;
+    font-weight: 900;
+    margin-bottom: 30px;
+
+    &_company {
+        width: 455px;
+    }
+    &_found {
+        width: 525px;
+    }
+}
+
+.aside__text {
+    margin-bottom: 1.5rem;
+
+    &_company {
+        width: 420px;
+    }
+    &_found {
+        width: 525px;
+    }
 }
 
 .about-company {
     width: 600px;
     height: 375px;
     padding: 70px 70px 60px 77px;
-    border-radius: 10px;
-    background-color: $light-color;
     left: $inner-content-width;
     top: -75px;
 }
 
-.about-company__title {
-    font-size: 2.4rem;
-    font-weight: 900;
-    width: 455px;
-    margin-bottom: 30px;
-}
-
-.about-company__text {
-    width: 420px;
-    margin-bottom: 1.5rem;
+.about-found {
+    width: 660px;
+    height: 320px;
+    padding: 70px 77px 35px 60px;
 }
