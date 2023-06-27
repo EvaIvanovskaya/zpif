@@ -1,0 +1,13 @@
+$GraphikLCG: (
+    GraphikLCG-Regular,
+    GraphikLCG-Medium,
+    GraphikLCG-Semibold,
+);
+
+@each $font in $GraphikLCG{
+    @font-face {
+        font-family: #{$font};
+        src: url(/src/fonts/#{$font}.woff);
+        font-display: fallback;
+    }
+}
