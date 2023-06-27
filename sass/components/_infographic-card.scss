@@ -1,0 +1,45 @@
+.about__infographic {
+    padding: 47px 60px 55px;
+    box-sizing: border-box;
+    width: 670px;
+    height: 320px;
+    border-radius: 10px;
+    background-color: $glass-background-color;
+    backdrop-filter: blur(34px);
+}
+
+.advantage {
+    color: $light-color;
+}
+
+.advantages__title {
+    font-size: 4.0rem;
+    font-weight: 900;
+}
+
+.advantages__title-text {
+    font-size: 2.0rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.advantages__subtitle {
+    font-size: 1.4rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.advantages__description {
+    font-size: 1.4rem;
+    margin-top: 8px;
+    width: 135px;
+}
+
+.about__link {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    font-size: 1.6rem;
+    text-decoration: none;
+    color: $light-color;
+}

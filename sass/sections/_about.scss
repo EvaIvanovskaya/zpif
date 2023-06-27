@@ -1,11 +1,8 @@
 .about {
     padding-top: 78px;
     padding-bottom: 87px;
-    background-image:
-        $primary-gradient,
-        url(/src/img/backgrounds/main-cover.png);
-    background-repeat: no-repeat;
-    border-color: $primary-color;
+    background-image: $primary-gradient;
+    background-color: $background-color;
 }
 
 .intro {
@@ -31,4 +28,16 @@
     line-height: 1.14;
     color: $light-color;
     width: 138px;
+}
+
+.bank-authorise {
+    margin-top: 50px;
+}
+
+.bank-authorise__desription {
+    position: relative;
+    font-size: 1.6rem;
+    color: $light-color;
+    width: 135px;
+    left: 60px;
 }

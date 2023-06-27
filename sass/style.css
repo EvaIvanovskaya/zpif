@@ -214,7 +214,54 @@ dd {
   box-shadow: 0px 4px 17px 0px rgba(0, 0, 0, 0.15);
 }
 
-.video-play__icon {
+.about__infographic {
+  padding: 47px 60px 55px;
+  box-sizing: border-box;
+  width: 670px;
+  height: 320px;
+  border-radius: 10px;
+  background-color: rgba(101, 118, 119, 0.25);
+  -webkit-backdrop-filter: blur(34px);
+          backdrop-filter: blur(34px);
+}
+
+.advantage {
+  color: rgb(255, 255, 255);
+}
+
+.advantages__title {
+  font-size: 4rem;
+  font-weight: 900;
+}
+
+.advantages__title-text {
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.advantages__subtitle {
+  font-size: 1.4rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.advantages__description {
+  font-size: 1.4rem;
+  margin-top: 8px;
+  width: 135px;
+}
+
+.about__link {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.link-icon, .bank-icon, .video-play__icon {
   display: inline-block;
   cursor: pointer;
 }
@@ -224,6 +271,32 @@ dd {
   width: 80px;
   height: 80px;
   margin-right: 22px;
+}
+
+.bank-icon {
+  background-image: url(/src/img/logos/bank-russia-logo.svg);
+  width: 200px;
+  height: 50px;
+}
+
+.link-icon {
+  width: 52px;
+  height: 52px;
+}
+.link-icon:hover {
+  transition: all 0.1s ease-out;
+  rotate: -45deg;
+}
+.link-icon_filling {
+  background-image: url(/src/img/icons/arrow-button-fill.svg);
+  margin-left: 20px;
+}
+
+.divider svg {
+  stroke: rgb(255, 255, 255);
+  stroke-width: 1;
+  margin-top: 37px;
+  margin-bottom: 30px;
 }
 
 /*Layout*/
@@ -316,9 +389,8 @@ dd {
 .about {
   padding-top: 78px;
   padding-bottom: 87px;
-  background-image: linear-gradient(180deg, rgb(90, 155, 174) 0%, rgba(185, 212, 220, 0.43) 80.26%, rgba(255, 255, 255, 0) 100%), url(/src/img/backgrounds/main-cover.png);
-  background-repeat: no-repeat;
-  border-color: rgb(35, 146, 181);
+  background-image: linear-gradient(180deg, rgb(90, 155, 174) 0%, rgba(185, 212, 220, 0.43) 80.26%, rgba(255, 255, 255, 0) 100%);
+  background-color: rgb(90, 155, 174);
 }
 
 .intro {
@@ -344,4 +416,16 @@ dd {
   line-height: 1.14;
   color: rgb(255, 255, 255);
   width: 138px;
+}
+
+.bank-authorise {
+  margin-top: 50px;
+}
+
+.bank-authorise__desription {
+  position: relative;
+  font-size: 1.6rem;
+  color: rgb(255, 255, 255);
+  width: 135px;
+  left: 60px;
 }/*# sourceMappingURL=style.css.map */
