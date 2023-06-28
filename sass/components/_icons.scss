@@ -37,3 +37,32 @@
         margin-left: 20px;
     }
 }
+
+.legend-icon {
+    @extend %ico;
+    cursor: none;
+    height: 10px;
+}
+
+.high-index {
+    width: 40px;
+    background-image: url(/src/img/icons/legend-icon-hight.svg);
+}
+
+.middle-index {
+    width: 25px;
+    background-image: url(/src/img/icons/legend-icon-middle.svg);
+}
+
+.low-index {
+    width: 10px;
+    background-image: url(/src/img/icons/legend-icon-low.svg);
+}
+
+.table_logo {
+    @extend %ico;
+    cursor: none;
+    width: 220px;
+    height: 30px;
+    background-image: url(/src/img/logos/zpif-logo-table.svg);
+}

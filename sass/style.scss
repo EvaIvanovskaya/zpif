@@ -13,6 +13,7 @@
 @import "components/icons";
 @import "components/divider";
 @import "components/aside";
+@import "components/legend";
 
 /*Layout*/
 @import "layout/wrapper";
@@ -20,8 +21,10 @@
 @import "layout/navigation";
 @import "layout/footer";
 @import "layout/columns";
+@import "layout/table";
 
 /*Sections*/
 @import "sections/main-slogan";
 @import "sections/about";
 @import "sections/strategy";
+@import "sections/comparison";

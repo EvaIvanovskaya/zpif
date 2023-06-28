@@ -1,0 +1,16 @@
+.legend__items {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 30px;
+    list-style: none;
+}
+
+.legend_item {
+    font-size: 1.4rem;
+    color: $light-color;
+
+    >* {
+        margin-right: 10px;
+    }
+}
