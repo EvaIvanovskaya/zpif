@@ -1,6 +1,10 @@
 .product-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     width: 260px;
     height: 350px;
+    padding: 20px 20px 20px 0;
     background-color: $light-color;
     box-shadow: $card-shadow;
     border-radius: 0px 0px 20px 0px;
@@ -31,5 +35,28 @@
 
     &:last-child {
         margin-bottom: 0;
+    }
+
+    &_compressed {
+        margin-bottom: 0;
+    }
+}
+
+.product-card__link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 240px;
+    padding-top: 20px;
+    font-size: 1.6rem;
+    line-height: 1.11;
+    font-weight: 600;
+    text-decoration: none;
+    color: $primary-color;
+    border-top: 1px solid $primary-color;
+    bottom: 35px;
+
+    p {
+        width: 149px;
     }
 }
