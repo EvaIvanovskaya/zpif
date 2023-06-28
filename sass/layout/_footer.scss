@@ -1,0 +1,64 @@
+.main-footer {
+    padding-top: 60px;
+    padding-bottom: 70px;
+    background-color: $primary-color;
+}
+
+.main-footer__wrapper {
+    display: flex;
+    align-items: start;
+    justify-content: flex-start;
+    gap: 132px;
+}
+
+.partners-logo {
+    list-style: none;
+}
+
+.partner-logo {
+    margin-bottom: 30px;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+
+    &_depository {
+        color: $light-color;
+        font-size: 1.2rem;
+        font-weight: 600;
+        line-height: 1.24;
+        letter-spacing: 0.24px;
+        width: 167px;
+        margin-top: 38px;
+    }
+}
+
+.descriptor__text {
+    font-size: 1.4rem;
+    line-height: 1.24;
+    letter-spacing: 0.28px;
+    color: $light-color;
+    margin-bottom: 15px;
+
+    &:last-of-type {
+        margin-bottom: 30px;
+    }
+}
+
+.terms-links {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 75px;
+    list-style: none;
+}
+
+.term__link {
+    font-size: 1.2rem;
+    line-height: 1.24;
+    letter-spacing: 0.24px;
+    a {
+        color: $light-color;
+        text-decoration: none;
+    }
+}
