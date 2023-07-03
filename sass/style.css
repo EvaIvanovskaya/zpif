@@ -533,6 +533,40 @@ td:first-of-type {
   text-decoration: none;
 }
 
+.leadform__form {
+  margin-top: 46px;
+}
+
+input[type=text],
+input[type=tel] {
+  width: 418px;
+  height: 45px;
+  box-sizing: border-box;
+  border: 1px solid rgb(189, 189, 189);
+  border-radius: 10px;
+  outline: none;
+  padding: 13px 21px 10px;
+  margin-bottom: 15px;
+}
+input[type=text]:focus,
+input[type=tel]:focus {
+  border: 2px solid rgb(35, 146, 181);
+}
+
+button[type=submit] {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  border: none;
+  background-color: rgb(255, 255, 255);
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: rgb(35, 146, 181);
+  padding: 0;
+  margin-top: 25px;
+}
+
 /*Layout*/
 .wrapper {
   max-width: 1160px;
@@ -901,4 +935,30 @@ td:first-of-type {
 .info-link {
   color: rgb(35, 146, 181);
   text-decoration: underline;
+}
+
+.leadform {
+  padding-top: 80px;
+  background-color: rgb(90, 155, 174);
+  background-image: linear-gradient(180deg, rgb(90, 155, 174) 0%, rgba(185, 212, 220, 0.43) 80.26%, rgba(255, 255, 255, 0) 100%);
+}
+
+.leadform__title {
+  width: 567px;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+}
+
+.leadform__form__wrapper {
+  width: 560px;
+  height: 410px;
+  padding: 60px 82px 30px 60px;
+  box-sizing: border-box;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px 10px 0 0;
+  margin-top: 50px;
+}
+
+.leadform_form__introduction__text {
+  margin-top: 15px;
 }/*# sourceMappingURL=style.css.map */

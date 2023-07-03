@@ -1,0 +1,33 @@
+.leadform__form {
+    margin-top: 46px;
+}
+
+input[type=text], 
+input[type=tel] {
+    width: 418px;
+    height: 45px;
+    box-sizing: border-box;
+    border: 1px solid $form-input-color;
+    border-radius: 10px;
+    outline: none;
+    padding: 13px 21px 10px;
+    margin-bottom: 15px;
+
+    &:focus {
+        border: 2px solid $primary-color;
+    }
+}
+
+button[type=submit] {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    border: none;
+    background-color: $light-color;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: $primary-color;
+    padding: 0;
+    margin-top: 25px;
+}
