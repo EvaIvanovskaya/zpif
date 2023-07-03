@@ -1,0 +1,38 @@
+.management-company {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.management-company__content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 50px;
+}
+
+.management-company__text {
+    width: 700px;
+    margin-right: 100px;
+
+    &:first-of-type {
+        margin-bottom: 15px;
+    }
+}
+
+.partners__logo {
+    margin-top: 80px;
+}
+
+.partners__logo__label:first-child {
+    margin-bottom: 30px;
+}
+
+.info-link {
+    margin-top: 55px;    
+}
+
+.license-link,
+.info-link {
+    color: $primary-color;
+    text-decoration: underline;
+}
