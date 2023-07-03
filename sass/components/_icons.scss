@@ -66,3 +66,17 @@
     height: 30px;
     background-image: url(/src/img/logos/zpif-logo-table.svg);
 }
+
+.whatsapp-icon {
+    @extend %ico;
+    width: 40px;
+    height: 40px;
+    background-image: url(/src/img/logos/whapp-logo.svg);
+}
+
+.tg-icon {
+    @extend %ico;
+    width: 40px;
+    height: 40px;
+    background-image: url(/src/img/logos/tg-logo.svg);
+}
