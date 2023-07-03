@@ -53,3 +53,23 @@
         width: 149px;
     }
 }
+
+/*Project cards*/
+.project-profit__cost {
+    font-size: 3.2rem;
+    line-height: 1.18;
+}
+
+.project-profit__descriptor {
+    font-size: 2.0rem;
+    line-height: 1.13;
+    margin-top: 5px;
+}
+
+.project-card__content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: space-between;
+    margin-bottom: 36px;
+}

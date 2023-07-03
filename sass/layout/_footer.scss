@@ -61,4 +61,10 @@
         color: $light-color;
         text-decoration: none;
     }
+
+    &:hover {
+        a {
+            text-decoration: underline;
+        }
+    }
 }
